@@ -1,0 +1,6 @@
+# robots.txt for Aasaan
+User-agent: *
+Allow: /
+Disallow: /PRD/
+
+Sitemap: https://aasaanapp.in/sitemap.xml

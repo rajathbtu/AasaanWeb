@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+__MACOSX/
+
+# Editors/IDE
+.vscode/
+.history/
+*.code-workspace
+
+# Python
+.venv/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Node/JS
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Build outputs
+build/
+dist/
+out/
+.cache/
+*.cache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env/config
+.env
+.env.*
+*.local
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Temp files
+.tmp/
+tmp/
+*.tmp
+*.swp
+*.swo
+
+# Project assets to exclude
+PRD/

@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aasaan — Find Trusted Service Providers Nearby | Made for India</title>
+  <meta name="description" content="Aasaan connects end users with nearby service providers across India. Post a work request in minutes, get calls from providers, and hire fast. Simple OTP login, multi‑language support, ratings, and affordable pro plans." />
+  
+  <!-- Canonical + Robots -->
+  <link rel="canonical" href="https://aasaanapp.in/" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Preload LCP image -->
+  <link rel="preload" as="image" href="assets/screens/eu_work_request_select_service_page.png" type="image/png" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%232563eb'/%3E%3Ctext x='16' y='21' font-family='Inter, Arial' font-size='14' text-anchor='middle' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+  <!-- Updated Open Graph -->
+  <meta property="og:title" content="Aasaan — Find Trusted Service Providers Nearby" />
+  <meta property="og:description" content="Post a work request in minutes and get calls from nearby providers. Simple OTP login, multi‑language, and ratings." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/2563eb/ffffff.png&text=Aasaan%20%E2%80%94%20Find%20Trusted%20Providers" />
+  <meta property="og:url" content="https://aasaanapp.in/" />
+  <meta property="og:site_name" content="Aasaan" />
+  <meta property="og:locale" content="en_IN" />
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aasaan — Find Trusted Service Providers Nearby" />
+  <meta name="twitter:description" content="Post a work request in minutes and get calls from nearby providers. Simple OTP login, multi‑language, and ratings." />
+  <meta name="twitter:image" content="https://dummyimage.com/1200x630/2563eb/ffffff.png&text=Aasaan%20%E2%80%94%20Find%20Trusted%20Providers" />
+  <meta name="twitter:site" content="@aasaanapp" />
+  
+  <!-- Hreflang (single language for now) -->
+  <link rel="alternate" hreflang="x-default" href="https://aasaanapp.in/" />
+  <link rel="alternate" hreflang="en-IN" href="https://aasaanapp.in/" />
+  
+  <!-- Structured data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Aasaan",
+    "url": "https://aasaanapp.in/",
+    "address": {"@type":"PostalAddress","addressLocality":"Noida","addressCountry":"IN"},
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "hello@aasaanapp.in",
+      "telephone": "+91-8004920005",
+      "areaServed": "IN",
+      "availableLanguage": ["hi", "en"]
+    }]
+  }
+  </script>
+  
+  <!-- Structured data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Aasaan",
+    "url": "https://aasaanapp.in/",
+    "inLanguage": "en"
+  }
+  </script>
+  
+  <!-- Structured data: MobileApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Aasaan",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Android, iOS",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "12" },
+    "url": "https://aasaanapp.in/",
+    "installUrl": [
+      "https://play.google.com/store/apps/details?id=com.aasaanapp", 
+      "https://apps.apple.com/app/id0000000000"
+    ]
+  }
+  </script>
+  
+  <!-- Structured data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Aasaan free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. End users and providers can use Aasaan for free. Providers can upgrade to Pro or Pro Plus for added benefits."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What do I need to sign up?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A smartphone and your mobile number. Login and registration are via OTP — no passwords required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which languages are supported?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hindi, English, and regional Indian languages, with instant switching from the language selection screen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What permissions does the app need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Location (to match nearby jobs), Phone (to call after acceptance), OTP read (for faster login), and optional Contacts on Android for identifying potential providers. You can control these anytime."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I switch between End User and Service Provider?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Switch roles from your profile. If you’re a provider, set your service, location, and radius to start receiving jobs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my data secure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We store mobile numbers in encrypted form and follow privacy‑first practices."
+        }
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Structured data: HowTo -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to use Aasaan to hire providers or find work",
+    "description": "Simple steps to post a work request, accept jobs, and complete with ratings.",
+    "step": [
+      {"@type": "HowToStep", "name": "Select your role", "text": "Choose End User or Service Provider from the role selection screen."},
+      {"@type": "HowToStep", "name": "Create or view requests", "text": "End users post a work request. Providers view eligible nearby requests."},
+      {"@type": "HowToStep", "name": "Accept and talk", "text": "Providers send interest; both parties can connect via phone after acceptance."},
+      {"@type": "HowToStep", "name": "Close and rate", "text": "Mark the job done and leave a rating to build trust."}
+    ]
+  }
+  </script>
+  
+  <meta name="theme-color" content="#2563eb" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" data-reveal>
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Aasaan</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#tour">Screens</a></li>
+          <li><a href="#pricing">Plans</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a class="btn btn-ghost" href="#tour">See Screens</a>
+        <a class="btn btn-primary" href="#download">Get the App</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="section hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-copy" data-reveal>
+        <div class="eyebrow">
+          <span class="dot"></span>
+          Services marketplace for India
+        </div>
+        <h1>Get work done. Find trusted providers near you.</h1>
+        <p class="subhead">Post a work request in minutes and get calls from nearby providers — electricians, plumbers, maids, carpenters, trainers, and more. Simple OTP login, multi‑language, and ratings so you hire with confidence.</p>
+        <div class="cta-group">
+          <a class="btn btn-primary btn-lg" href="#download">Get the App</a>
+          <a class="btn btn-ghost btn-lg" href="#how">See how it works</a>
+        </div>
+        <form class="signup" id="signupForm" novalidate>
+          <label for="email" class="sr-only">Email</label>
+          <input id="email" type="email" name="email" placeholder="Enter your email for updates" required />
+          <button type="submit" class="btn btn-secondary">Notify me</button>
+        </form>
+        <div class="trust">
+          <div class="badges">
+            <span class="badge"><span class="icon icon-lock" aria-hidden="true"></span> Data encrypted</span>
+            <span class="badge"><span class="icon icon-check" aria-hidden="true"></span> Phone verified (OTP)</span>
+            <span class="badge"><span class="icon icon-shield" aria-hidden="true"></span> Privacy‑first</span>
+          </div>
+          <div class="integrations" aria-label="Key capabilities">
+            <span class="pill">Multi‑language</span>
+            <span class="pill">Location‑based</span>
+            <span class="pill">Low data usage</span>
+            <span class="pill">Ratings & reviews</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" data-reveal>
+        <div class="device hero-device">
+          <img src="assets/screens/eu_work_request_select_service_page.png" alt="Work request screen preview" loading="eager" fetchpriority="high" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem Statement -->
+  <section class="section problem" id="problem">
+    <div class="container problem-inner" data-reveal>
+      <div class="problem-copy">
+        <h2>Finding reliable help shouldn’t be difficult</h2>
+        <p>For end users, searching, calling, and shortlisting wastes time. For providers, leads are inconsistent and costly.</p>
+        <ul class="list">
+          <li>Endless searching and unverified contacts</li>
+          <li>Language barriers and complex apps</li>
+          <li>Noisy groups and missed opportunities</li>
+          <li>Poor follow‑ups, no ratings or proof of work</li>
+          <li>High lead costs and low trust</li>
+        </ul>
+      </div>
+      <div class="solution">
+        <div class="solution-card">
+          <h3>How Aasaan fixes it</h3>
+          <ul class="list check">
+            <li>Post a work request in minutes</li>
+            <li>Providers nearby can accept and call you</li>
+            <li>OTP login and multi‑language support</li>
+            <li>Ratings help you hire with confidence</li>
+            <li>Affordable Pro plans for providers</li>
+          </ul>
+          <a class="btn btn-primary" href="#download">Get the App</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section features" id="how">
+    <div class="container">
+      <header class="section-header" data-reveal>
+        <h2>How Aasaan works</h2>
+        <p>Two roles. One simple flow — built for speed, low data usage, and ease.</p>
+      </header>
+      <div class="feature-grid">
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-grid"></span></div>
+          <h3>End users: Create requests</h3>
+          <p>Select a service (e.g., electrician), add details, confirm location, and you’re done.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-mobile"></span></div>
+          <h3>Providers: View & accept</h3>
+          <p>See nearby opportunities that match your service and radius, then send interest.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-credit"></span></div>
+          <h3>Talk & hire</h3>
+          <p>Call directly after acceptance. Close the request when done and rate the provider.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-support"></span></div>
+          <h3>Multi‑language + OTP</h3>
+          <p>Use Hindi, English, and regional languages with quick, secure OTP login.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-graph"></span></div>
+          <h3>Ratings & reviews</h3>
+          <p>Build trust with post‑completion ratings. Providers can request ratings after 4 hours.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-box"></span></div>
+          <h3>Low‑end device ready</h3>
+          <p>Fast, lightweight UX with minimal data usage and offline indicators.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features -->
+  <section class="section features" id="features">
+    <div class="container">
+      <header class="section-header" data-reveal>
+        <h2>Features designed for India</h2>
+        <p>Fast, simple, and trustworthy for both end users and service providers.</p>
+      </header>
+      <div class="feature-grid">
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-mobile"></span></div>
+          <h3>OTP‑only login</h3>
+          <p>Quick signup with mobile number and 4‑digit OTP. No passwords to remember.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-grid"></span></div>
+          <h3>Multi‑language UI</h3>
+          <p>Hindi, English, and regional languages with instant switching from the first screen.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-graph"></span></div>
+          <h3>Smart matching</h3>
+          <p>Location and radius based job matching so providers see the right opportunities.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-support"></span></div>
+          <h3>Ratings & reviews</h3>
+          <p>Post‑completion ratings build trust. Providers can request ratings after 4 hours.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-credit"></span></div>
+          <h3>Boost & credits</h3>
+          <p>End users can boost requests. Earn and redeem credits for add‑ons (1 credit = ₹1).</p>
+        </article>
+        <article class="feature" data-reveal>
+          <div class="feat-icon"><span class="icon icon-box"></span></div>
+          <h3>Pro plans</h3>
+          <p>Providers unlock early notifications, multiple locations, and priority listing.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Tour with embedded screens -->
+  <section class="section tour" id="tour">
+    <div class="container">
+      <header class="section-header" data-reveal>
+        <h2>See the app screens</h2>
+        <p>Quick previews of key flows.</p>
+      </header>
+      <div class="tour-grid">
+        <article class="tour-item" data-reveal>
+          <div class="tour-copy">
+            <h3>Language selection</h3>
+            <p>Choose your preferred language the moment you start. The app switches instantly.</p>
+          </div>
+          <div class="device">
+            <img src="assets/screens/language_select_page.png" alt="Language select preview" loading="lazy" />
+          </div>
+        </article>
+        <article class="tour-item" data-reveal>
+          <div class="tour-copy">
+            <h3>OTP login</h3>
+            <p>Log in or register with your mobile number and OTP — no passwords needed.</p>
+          </div>
+          <div class="device">
+            <img src="assets/screens/otp_validation_page.png" alt="OTP preview" loading="lazy" />
+          </div>
+        </article>
+        <article class="tour-item" data-reveal>
+          <div class="tour-copy">
+            <h3>Role selection</h3>
+            <p>Switch between End User and Service Provider anytime from your profile.</p>
+          </div>
+          <div class="device">
+            <img src="assets/screens/role_select_page.png" alt="Role select preview" loading="lazy" />
+          </div>
+        </article>
+        <article class="tour-item" data-reveal>
+          <div class="tour-copy">
+            <h3>Create work request</h3>
+            <p>Pick a service and add details. Location is auto‑detected and editable.</p>
+          </div>
+          <div class="device">
+            <img src="assets/screens/eu_work_request_select_service_page.png" alt="Service select preview" loading="lazy" />
+          </div>
+        </article>
+        <article class="tour-item" data-reveal>
+          <div class="tour-copy">
+            <h3>My requests</h3>
+            <p>Track your requests, see who accepted, call providers, or close the request.</p>
+          </div>
+          <div class="device">
+            <img src="assets/screens/eu_work_requests_page.png" alt="My requests preview" loading="lazy" />
+          </div>
+        </article>
+        <article class="tour-item" data-reveal>
+          <div class="tour-copy">
+            <h3>Provider work feed</h3>
+            <p>Browse eligible jobs, send interest, and manage opportunities in one place.</p>
+          </div>
+          <div class="device">
+            <img src="assets/screens/sp_work_requests_page.png" alt="Provider feed preview" loading="lazy" />
+          </div>
+        </article>
+        <article class="tour-item" data-reveal>
+          <div class="tour-copy">
+            <h3>Boost requests</h3>
+            <p>End users can boost requests for priority visibility and faster responses.</p>
+          </div>
+          <div class="device">
+            <img src="assets/screens/eu_work_request_boost_page.png" alt="Boost preview" loading="lazy" />
+          </div>
+        </article>
+        <article class="tour-item" data-reveal>
+          <div class="tour-copy">
+            <h3>Pro plans</h3>
+            <p>Providers unlock early notifications, multiple locations, and larger radius.</p>
+          </div>
+          <div class="device">
+            <img src="assets/screens/sp_premium_plans_page.png" alt="Pro plans preview" loading="lazy" />
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="section benefits" id="benefits">
+    <div class="container">
+      <header class="section-header" data-reveal>
+        <h2>Built for outcomes</h2>
+        <p>Save time, find the right match, and grow your work — whether you hire or provide.</p>
+      </header>
+      <div class="benefit-grid">
+        <div class="benefit" data-reveal>
+          <div class="metric">
+            <span class="value">5x</span>
+            <span class="label">Faster hiring</span>
+          </div>
+          <p>Post once and get calls from multiple providers quickly.</p>
+        </div>
+        <div class="benefit" data-reveal>
+          <div class="metric">
+            <span class="value">+40%</span>
+            <span class="label">More leads</span>
+          </div>
+          <p>Providers see more matched jobs with early notifications.</p>
+        </div>
+        <div class="benefit" data-reveal>
+          <div class="metric">
+            <span class="value">Low</span>
+            <span class="label">Data usage</span>
+          </div>
+          <p>Optimized for low‑end devices and patchy networks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <header class="section-header" data-reveal>
+        <h2>Trusted by users across India</h2>
+        <p>Stories from people getting work done and growing their business.</p>
+      </header>
+      <div class="testimonial-grid">
+        <figure class="testimonial" data-reveal>
+          <div class="avatar" aria-hidden="true">SK</div>
+          <blockquote>
+            “Found an electrician within 30 minutes. Simple and fast — no more endless calls.”
+          </blockquote>
+          <figcaption>Sunita Khanna — Delhi</figcaption>
+        </figure>
+        <figure class="testimonial" data-reveal>
+          <div class="avatar" aria-hidden="true">RM</div>
+          <blockquote>
+            “As a carpenter, I get steady work nearby. Early notifications help me catch more jobs.”
+          </blockquote>
+          <figcaption>Rohit Mahale — Pune</figcaption>
+        </figure>
+        <figure class="testimonial" data-reveal>
+          <div class="avatar" aria-hidden="true">NP</div>
+          <blockquote>
+            “The app works in Hindi for my parents. OTP login is perfect for them.”
+          </blockquote>
+          <figcaption>Nisha Patel — Ahmedabad</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing / Plans -->
+  <section class="section pricing" id="pricing">
+    <div class="container">
+      <header class="section-header" data-reveal>
+        <h2>Affordable plans for providers</h2>
+        <p>Start free. Upgrade for more reach and faster responses. Prices in INR.</p>
+      </header>
+      <div class="pricing-grid">
+        <article class="plan" data-reveal>
+          <h3>Free</h3>
+          <p class="plan-tag">Get started</p>
+          <div class="price">
+            <span class="amount">₹0</span>
+            <span class="period">forever</span>
+          </div>
+          <ul class="list">
+            <li>View and accept eligible work requests</li>
+            <li>Standard notifications</li>
+            <li>Profile and ratings</li>
+          </ul>
+          <a class="btn btn-primary btn-block" href="#download">Get the App</a>
+        </article>
+        <article class="plan plan-featured" data-reveal>
+          <div class="ribbon">Popular</div>
+          <h3>Pro</h3>
+          <p class="plan-tag">Early notifications</p>
+          <div class="price">
+            <span class="amount">₹100</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="list check">
+            <li>Early notifications for new jobs</li>
+            <li>Increased visibility</li>
+            <li>Save with 6‑ or 12‑month options (₹400 / 6 mo, ₹600 / 12 mo)</li>
+          </ul>
+          <a class="btn btn-primary btn-block" href="#download">Upgrade in App</a>
+        </article>
+        <article class="plan" data-reveal>
+          <h3>Pro Plus</h3>
+          <p class="plan-tag">Grow faster</p>
+          <div class="price">
+            <span class="amount">₹200</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="list check">
+            <li>Everything in Pro</li>
+            <li>Multiple service locations (up to 5)</li>
+            <li>Priority listing and larger radius</li>
+          </ul>
+          <a class="btn btn-primary btn-block" href="#download">Upgrade in App</a>
+        </article>
+      </div>
+      <div class="pricing-grid" style="margin-top:1rem;">
+        <article class="plan" data-reveal>
+          <h3>Add‑ons</h3>
+          <p class="plan-tag">Pay as you go</p>
+          <ul class="list check">
+            <li>Boost request (End User): ₹100 per request</li>
+            <li>Extra requests after 3/day: ₹50 each or via credits</li>
+            <li>Credits: Earn and redeem (1 credit = ₹1)</li>
+          </ul>
+          <a class="btn btn-ghost btn-block" href="#tour">See how boosting works</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq" id="faq">
+    <div class="container">
+      <header class="section-header" data-reveal>
+        <h2>Frequently asked questions</h2>
+        <p>Everything you need to know about using Aasaan.</p>
+      </header>
+      <div class="faq-list">
+        <details class="faq-item" data-reveal>
+          <summary>Is Aasaan free?</summary>
+          <p>Yes. End users and providers can use Aasaan for free. Providers can upgrade to Pro or Pro Plus for added benefits.</p>
+        </details>
+        <details class="faq-item" data-reveal>
+          <summary>What do I need to sign up?</summary>
+          <p>A smartphone and your mobile number. Login and registration are via OTP — no passwords required.</p>
+        </details>
+        <details class="faq-item" data-reveal>
+          <summary>Which languages are supported?</summary>
+          <p>Hindi, English, and regional Indian languages, with instant switching from the language selection screen.</p>
+        </details>
+        <details class="faq-item" data-reveal>
+          <summary>What permissions does the app need?</summary>
+          <p>Location (to match nearby jobs), Phone (to call after acceptance), OTP read (for faster login), and optional Contacts on Android for identifying potential providers. You can control these anytime.</p>
+        </details>
+        <details class="faq-item" data-reveal>
+          <summary>Can I switch between End User and Service Provider?</summary>
+          <p>Yes. Switch roles from your profile. If you’re a provider, set your service, location, and radius to start receiving jobs.</p>
+        </details>
+        <details class="faq-item" data-reveal>
+          <summary>Is my data secure?</summary>
+          <p>We store mobile numbers in encrypted form and follow privacy‑first practices.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo / Get Demo -->
+  <section class="section demo" id="demo">
+    <div class="container">
+      <div class="demo-card" data-reveal>
+        <div class="demo-copy">
+          <h2>See Aasaan in action</h2>
+          <p>Book a 15‑minute walkthrough and learn how to hire faster or get more local leads with Aasaan.</p>
+          <ul class="list check">
+            <li>Walkthrough of end‑user and provider flows</li>
+            <li>Tips to get faster responses and better matches</li>
+            <li>Q&A on permissions, privacy, and languages</li>
+          </ul>
+        </div>
+        <form class="demo-form" id="demoForm" novalidate>
+          <div class="row">
+            <div>
+              <label for="demoName" class="sr-only">Full name</label>
+              <input id="demoName" name="name" type="text" placeholder="Full name" required />
+            </div>
+            <div>
+              <label for="demoCompany" class="sr-only">Company</label>
+              <input id="demoCompany" name="company" type="text" placeholder="Company" />
+            </div>
+          </div>
+          <div>
+            <label for="demoEmail" class="sr-only">Work email</label>
+            <input id="demoEmail" name="email" type="email" placeholder="Work email" required />
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Request Demo</button>
+          <p class="form-note">We’ll get back within 1 business day. No spam.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download badges -->
+  <section class="section download" id="download">
+    <div class="container" data-reveal>
+      <div class="download-card">
+        <h2>Get the Aasaan app</h2>
+        <p>Available for Android and iOS. Optimized for low‑end devices and patchy networks.</p>
+        <div class="badges-wrap">
+          <a class="store-badge play" href="#" aria-label="Get it on Google Play">Get it on Google Play</a>
+          <a class="store-badge appstore" href="#" aria-label="Download on the App Store">Download on the App Store</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="#">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">Aasaan</span>
+        </a>
+        <p>Find trusted local service providers — fast, simple, in your language.</p>
+        <form class="signup small" id="footerSignup" novalidate>
+          <label for="femail" class="sr-only">Email</label>
+          <input id="femail" type="email" name="email" placeholder="Email for tips & updates" required />
+          <button type="submit" class="btn btn-secondary">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#demo">Get Demo</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="security.html">Security</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: hello@aasaanapp.in</li>
+          <li>Phone: +91 8004920005/ 9873938108</li>
+          <li>Address: Noida, India</li>
+        </ul>
+        <div class="social">
+          <a href="#" aria-label="Twitter" class="social-link">T</a>
+          <a href="#" aria-label="LinkedIn" class="social-link">in</a>
+          <a href="#" aria-label="YouTube" class="social-link">▶</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footnote">
+      <p>© <span id="year"></span> Aasaan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile CTA -->
+  <div class="sticky-cta">
+    <a class="btn btn-primary btn-block" href="#download">Get the App</a>
+    <a class="btn btn-ghost btn-block" href="#tour">See Screens</a>
+  </div>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
