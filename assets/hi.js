@@ -1,18 +1,18 @@
 /* ============================================================
-   Aasaan — Hindi copy
+   Aasaanly — Hindi copy
    Content only, no logic. Each block is an independent
    Object.assign so blocks can be appended in any order.
    Loaded before i18n.js.
    ============================================================ */
-window.AASAAN_HI = {};
+window.AASAANLY_HI = {};
 
 /* ---------- Meta, nav, language switcher ---------- */
-Object.assign(window.AASAAN_HI, {
-  'meta.title': 'आसान — सही मदद पास ही है',
+Object.assign(window.AASAANLY_HI, {
+  'meta.title': 'आसानली — सही मदद पास ही है',
   'meta.desc': 'एक काम का अनुरोध डालें, आपके पास के सत्यापित सेवा प्रदाता आपको सीधे फ़ोन करते हैं। 21 सेवाएँ, 7 भारतीय भाषाएँ, 4-अंकीय ओटीपी लॉगिन।',
 
   'skip': 'मुख्य सामग्री पर जाएँ',
-  'nav.why': 'आसान क्यों',
+  'nav.why': 'आसानली क्यों',
   'nav.how': 'यह कैसे काम करता है',
   'nav.steps': '3 आसान कदम',
   'nav.services': 'सेवाएँ',
@@ -44,14 +44,14 @@ Object.assign(window.AASAAN_HI, {
 });
 
 /* ---------- The 3 simple steps (provider explainer) ---------- */
-Object.assign(window.AASAAN_HI, {
+Object.assign(window.AASAANLY_HI, {
   'steps.eyebrow': '3 आसान कदम',
   'steps.title': 'बस तीन कदम, बस इतना ही',
-  'steps.lede': 'आसान ऐप कैसे काम करता है — सरदे से, बिना जटिल शर्तों के।',
+  'steps.lede': 'आसानली ऐप कैसे काम करता है — सरदे से, बिना जटिल शर्तों के।',
   'steps.tag1': 'अब हर काम करवाना हुआ आसान',
-  'steps.tag2': 'आज ही जुड़िए आसान से',
+  'steps.tag2': 'आज ही जुड़िए आसानली से',
   'steps.n1': 'ऐप डाउनलोड करें',
-  'steps.d1': 'अपने फ़ोन पर आसान इंस्टॉल करें। यह मुफ़्त है, बहुत हल्का है और कम इंटरनेट में भी चलता है।',
+  'steps.d1': 'अपने फ़ोन पर आसानली इंस्टॉल करें। यह मुफ़्त है, बहुत हल्का है और कम इंटरनेट में भी चलता है।',
   'steps.n2': 'अपना काम बताएँ',
   'steps.d2': 'जो-जो काम आप करते हैं उन्हें चुनें, और वो इलाका तय करें जहाँ आप काम करना चाहते हैं।',
   'steps.n3': 'कॉल आने लगेंगी',
@@ -60,14 +60,14 @@ Object.assign(window.AASAAN_HI, {
 });
 
 /* ---------- Why / How it works ---------- */
-Object.assign(window.AASAAN_HI, {
-  'why.eyebrow': 'आसान क्यों',
+Object.assign(window.AASAANLY_HI, {
+  'why.eyebrow': 'आसानली क्यों',
   'why.h2a': 'किसी भरोसेमंद इंसान को ढूँढना',
   'why.h2b': 'इतना मुश्किल नहीं होना चाहिए',
   'why.p': 'ज़्यादातर लोगों के पास मदद करने वालों की कमी नहीं होती। उन्हें <em>भरोसे</em> की कमी होती है — यह पता नहीं चलता कि कौन सचमुच आएगा, पुराने काम का कोई रिकॉर्ड नहीं, और न ही वे उस भाषा में पूछ सकते हैं जो वे बोलते हैं।',
   'why.oldlabel': 'पुराना तरीका',
   'why.oldh': 'मुँहज़बानी, व्हाट्सएप ग्रुप और अंदाज़ा',
-  'why.newlabel': 'आसान के साथ',
+  'why.newlabel': 'आसानली के साथ',
   'why.newh': 'एक अनुरोध, सीधे उन लोगों तक जो कर सकते हैं',
   'why.old1': 'अनजान लोगों को ढूँढते रहना और फ़ोन करते रहना',
   'why.old2': 'काम का कोई प्रमाण नहीं, कोई रेटिंग नहीं, कोई ज़िम्मेदारी नहीं',
@@ -103,7 +103,7 @@ Object.assign(window.AASAAN_HI, {
 });
 
 /* ---------- Roles (end user vs provider) ---------- */
-Object.assign(window.AASAAN_HI, {
+Object.assign(window.AASAANLY_HI, {
   'roles.eyebrow': 'एक ऐप, दो भूमिकाएँ',
   'roles.h2a': 'काम के दोनों तरफ़ के लिए बना —',
   'roles.h2b': 'ग्राहक और सेवा प्रदाता',
@@ -139,7 +139,7 @@ Object.assign(window.AASAAN_HI, {
 });
 
 /* ---------- Service catalogue ---------- */
-Object.assign(window.AASAAN_HI, {
+Object.assign(window.AASAANLY_HI, {
   'svc.eyebrow': 'सेवा सूची',
   'svc.h2a': 'इक्कीस सेवाएँ।',
   'svc.h2b': 'चार श्रेणियाएँ।',
@@ -152,11 +152,11 @@ Object.assign(window.AASAAN_HI, {
   'svc.more': 'और',
   'svc.showingAll': 'सभी 21 सेवाएँ दिख रही हैं',
   'svc.showing': '21 में से {n} सेवाएँ दिख रही हैं',
-  'svc.empty': 'इस खोज से कोई सेवा नहीं मिली। दूसरा शब्द आज़माइए, या <a class="tlink" href="mailto:hello@aasaanapp.in">हमसे कहिए</a> कि इसे जोड़ दें।'
+  'svc.empty': 'इस खोज से कोई सेवा नहीं मिली। दूसरा शब्द आज़माइए, या <a class="tlink" href="mailto:hello@aasaanly.com">हमसे कहिए</a> कि इसे जोड़ दें।'
 });
 
 /* ---------- svcNames ---------- */
-window.AASAAN_HI.svcNames = {
+window.AASAANLY_HI.svcNames = {
   maid: 'मेड', cook: 'कुक', babysitter: 'बेबीसिटर', cleaner: 'सफ़ाई वाला',
   'home servant': 'घरेलू सहायक', 'car cleaner': 'कार क्लीनर',
   electrician: 'इलेक्ट्रीशियन', plumber: 'प्लंबर', carpenter: 'बढ़ई',
@@ -168,7 +168,7 @@ window.AASAAN_HI.svcNames = {
 };
 
 /* ---------- svcDescs ---------- */
-window.AASAAN_HI.svcDescs = {
+window.AASAANLY_HI.svcDescs = {
   maid: 'सफ़ाई, झाड़ू, पोंछा, धूल हटाना',
   cook: 'खाना बनाना, शाकाहारी, नाश्ता, रात का खाना',
   babysitter: 'बच्चों की देखभाल, नन्हा बच्चा, स्कूल के बाद, वीकेंड',
@@ -193,7 +193,7 @@ window.AASAAN_HI.svcDescs = {
 };
 
 /* ---------- svcCats ---------- */
-window.AASAAN_HI.svcCats = {
+window.AASAANLY_HI.svcCats = {
   'Daily Help': 'रोज़ का काम',
   'Home Repairs': 'घर की मरम्मत',
   'Professional Services': 'पेशेवर सेवाएँ',
@@ -201,11 +201,11 @@ window.AASAAN_HI.svcCats = {
 };
 
 /* ---------- Features ---------- */
-Object.assign(window.AASAAN_HI, {
+Object.assign(window.AASAANLY_HI, {
   'feat.eyebrow': 'अंदर क्या-क्या है',
   'feat.h2a': 'ऐप आज क्या-क्या',
   'feat.h2b': 'कर सकता है',
-  'feat.p': 'न कोई योजना, न कोई इंतज़ार। यही सब आज आसान में मौजूद है।',
+  'feat.p': 'न कोई योजना, न कोई इंतज़ार। यही सब आज आसानली में मौजूद है।',
   'feat.otp': '4-अंकीय ओटीपी लॉगिन',
   'feat.otpD': 'मोबाइल नंबर और 4-अंकीय कोड से साइन अप। न पासवर्ड, न ईमेल, न इंतज़ार। जहाँ उपलब्ध हो, वहाँ Truecaller वन-टैप लॉगिन भी।',
   'feat.radius': 'लोकेशन और दूरी से मिलान',
@@ -231,7 +231,7 @@ Object.assign(window.AASAAN_HI, {
 });
 
 /* ---------- Languages / Pricing / Quote ---------- */
-Object.assign(window.AASAAN_HI, {
+Object.assign(window.AASAANLY_HI, {
   'lang.eyebrow': 'भाषाएँ',
   'lang.h2a': 'लॉगिन से पहले ही',
   'lang.h2b': 'अपनी भाषा चुनिए',
@@ -240,7 +240,7 @@ Object.assign(window.AASAAN_HI, {
   'price.eyebrow': 'कीमत',
   'price.h2a': 'शुरू करना मुफ़्त।',
   'price.h2b': 'ज़्यादा पहुँच के लिए पैसे दें।',
-  'price.p': 'ग्राहक आसान को एक रुपया भी नहीं देते। सेवा प्रदाता ज़्यादा लीड चाहें तो अपग्रेड करते हैं। सभी कीमतें रुपये में, ऐप के अंदर बिलिंग।',
+  'price.p': 'ग्राहक आसानली को एक रुपया भी नहीं देते। सेवा प्रदाता ज़्यादा लीड चाहें तो अपग्रेड करते हैं। सभी कीमतें रुपये में, ऐप के अंदर बिलिंग।',
   'price.free': 'Free',
   'price.pro': 'Pro',
   'price.proplus': 'Pro Plus',
@@ -274,12 +274,12 @@ Object.assign(window.AASAAN_HI, {
 });
 
 /* ---------- FAQ ---------- */
-Object.assign(window.AASAAN_HI, {
+Object.assign(window.AASAANLY_HI, {
   'faq.eyebrow': 'सवाल',
   'faq.h2a': 'लोग जो',
   'faq.h2b': 'सवाल पूछते हैं',
-  'faq.q1': 'क्या आसान सचमुच मुफ़्त है?',
-  'faq.a1': 'हाँ। ग्राहक और सेवा प्रदाता दोनों आसान बिना कोई खर्च के इस्तेमाल कर सकते हैं। सेवा प्रदाता ज़्यादा पहुँच चाहें तो कभी भी Pro या Pro Plus ले सकते हैं।',
+  'faq.q1': 'क्या आसानली सचमुच मुफ़्त है?',
+  'faq.a1': 'हाँ। ग्राहक और सेवा प्रदाता दोनों आसानली बिना कोई खर्च के इस्तेमाल कर सकते हैं। सेवा प्रदाता ज़्यादा पहुँच चाहें तो कभी भी Pro या Pro Plus ले सकते हैं।',
   'faq.q2': 'साइन अप के लिए क्या चाहिए?',
   'faq.a2': 'एक स्मार्टफ़ोन और आपका मोबाइल नंबर। लॉगिन और रजिस्ट्रेशन ओटीपी से होता है — कोई पासवर्ड नहीं बनाना या याद रखना।',
   'faq.q3': 'मिलान असल में कैसे होता है?',
@@ -295,7 +295,7 @@ Object.assign(window.AASAAN_HI, {
 });
 
 /* ---------- CTA + demo form ---------- */
-Object.assign(window.AASAAN_HI, {
+Object.assign(window.AASAANLY_HI, {
   'cta.eyebrow': 'शुरू कीजिए',
   'cta.h2a': 'सही मदद',
   'cta.h2b': 'एक टैप दूर है',
@@ -329,7 +329,7 @@ Object.assign(window.AASAAN_HI, {
   'foot.plans': 'Pro प्लान',
   'foot.onboard': 'प्रोवाइडर ऑनबोर्डिंग',
   'foot.early': 'जल्दी नोटिफ़िकेशन',
-  'foot.rights': 'आसान। सर्वाधिकार सुरक्षित।',
+  'foot.rights': 'आसानली। सर्वाधिकार सुरक्षित।',
   'foot.how': 'यह कैसे काम करता है',
   'foot.svc': 'सेवाएँ',
   'foot.feat': 'खासियतें',

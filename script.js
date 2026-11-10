@@ -1,4 +1,4 @@
-// Aasaan Landing Page Interactions
+// Aasaanly Landing Page Interactions
 // - Mobile nav toggle
 // - Reveal on scroll animations
 // - Simple email and demo forms (client-side only)

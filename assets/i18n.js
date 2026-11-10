@@ -1,5 +1,5 @@
 /* ============================================================
-   Aasaan — bilingual layer (English / हिन्दी)
+   Aasaanly — bilingual layer (English / हिन्दी)
    Zero dependencies, no build step. English is authored directly
    in the markup, so this only has to push Hindi in and put the
    English back when the visitor switches off.
@@ -12,15 +12,15 @@
      [data-i18n]        -> textContent (or innerHTML with data-i18n-html)
      [data-i18n-attr]   -> "placeholder:key;aria-label:key2"
      .svc[data-name]    -> name/blurb swapped via the service tables
-     A "aasaan:lang" CustomEvent lets app.js re-render anything it
+     A "aasaanly:lang" CustomEvent lets app.js re-render anything it
      generates itself (service count, form validation).
    ============================================================ */
 (function (window, document) {
   'use strict';
 
-  var STORE = 'aasaan:lang';
+  var STORE = 'aasaanly:lang';
   var SUPPORTED = ['en', 'hi'];
-  var DICT = window.AASAAN_HI || {};
+  var DICT = window.AASAANLY_HI || {};
 
   /* English is authored in the markup, so the first time we touch an
      element we save its original value. Without this, switching to
@@ -75,10 +75,10 @@
   function emit(lang) {
     var detail = { lang: lang }, ev;
     try {
-      ev = new CustomEvent('aasaan:lang', { detail: detail });
+      ev = new CustomEvent('aasaanly:lang', { detail: detail });
     } catch (e) {
       ev = document.createEvent('CustomEvent');
-      ev.initCustomEvent('aasaan:lang', true, false, detail);
+      ev.initCustomEvent('aasaanly:lang', true, false, detail);
     }
     document.dispatchEvent(ev);
   }
@@ -179,7 +179,7 @@
     });
   }
 
-  window.AasaanI18n = {
+  window.AasaanlyI18n = {
     apply: apply,
     current: current,
     /* What is on screen right now, which during a switch is the new

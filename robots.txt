@@ -1,4 +1,4 @@
-# robots.txt for Aasaan
+# robots.txt for Aasaanly
 User-agent: *
 Allow: /
 Disallow: /PRD/

@@ -1,5 +1,5 @@
 /* ============================================================
-   Aasaan — marketing site
+   Aasaanly — marketing site
    Vanilla JS, no dependencies. Every block is defensive: a missing
    selector or unsupported API skips that block instead of throwing.
    ============================================================ */
@@ -139,7 +139,7 @@
       });
 
       if (status) {
-        var I = window.AasaanI18n;
+        var I = window.AasaanlyI18n;
         if (category === 'all' && !q) {
           status.textContent = (I && I.t('svc.showingAll')) || ('Showing all ' + TOTAL + ' services');
         } else if (I) {
@@ -175,7 +175,7 @@
     }
     // Card names are swapped by i18n.js, so re-run the filter to keep the
     // count text and the search index in the active language.
-    document.addEventListener('aasaan:lang', apply);
+    document.addEventListener('aasaanly:lang', apply);
     apply();
   })();
 
@@ -287,7 +287,7 @@
 
     function validate(input) {
       var v = (input.value || '').trim();
-      var I = window.AasaanI18n;
+      var I = window.AasaanlyI18n;
       if (input.id === 'fName' && v.length < 2) { setError(input, (I && I.t('err.name')) || 'Please enter your name.'); return false; }
       if (input.id === 'fEmail' && !EMAIL.test(v)) { setError(input, (I && I.t('err.email')) || 'Please enter a valid email address.'); return false; }
       setError(input, '');
@@ -304,7 +304,7 @@
 
     // A message written in the previous language would otherwise linger
     // after a switch, so re-run validation on anything currently in error.
-    document.addEventListener('aasaan:lang', function () {
+    document.addEventListener('aasaanly:lang', function () {
       required.forEach(function (input) {
         if (input.classList.contains('bad')) validate(input);
       });
@@ -323,12 +323,12 @@
       // enquiry to the visitor's mail client as a reliable fallback.
       var data = new FormData(form);
       var name = data.get('name') || '';
-      var subject = encodeURIComponent('Aasaan demo request — ' + name);
+      var subject = encodeURIComponent('Aasaanly demo request — ' + name);
       var body = encodeURIComponent(
         'Name: ' + name + '\n' +
         'Email: ' + (data.get('email') || '') + '\n' +
         'Company: ' + (data.get('company') || '—') + '\n\n' +
-        'Sent from aasaanapp.in'
+        'Sent from aasaanly.com'
       );
 
       if (ok) ok.hidden = false;
@@ -336,8 +336,8 @@
       required.forEach(function (i) { setError(i, ''); });
 
       window.setTimeout(function () {
-        if (window.confirm('Thanks, ' + name + '! Open your email app to send this to hello@aasaanapp.in?')) {
-          window.location.href = 'mailto:hello@aasaanapp.in?subject=' + subject + '&body=' + body;
+        if (window.confirm('Thanks, ' + name + '! Open your email app to send this to hello@aasaanly.com?')) {
+          window.location.href = 'mailto:hello@aasaanly.com?subject=' + subject + '&body=' + body;
         }
       }, 300);
     });
@@ -346,9 +346,9 @@
   /* ---------- Language change: re-render what JS generates ----------
      i18n.js swaps text nodes. Anything this file builds at runtime
      (the service counter, checklist items, validation messages) has
-     to be rebuilt on the "aasaan:lang" event. */
+     to be rebuilt on the "aasaanly:lang" event. */
   (function onLangChange() {
-    var I = window.AasaanI18n;
+    var I = window.AasaanlyI18n;
 
     /* Checklist columns carry their items as an array, so the <li>s are
        rewritten here rather than translated one by one in the markup.
@@ -377,12 +377,12 @@
       if (!I) return;
       renderLists();
       // The service counter and form validation register their own
-      // "aasaan:lang" listeners, so nothing else is needed here.
+      // "aasaanly:lang" listeners, so nothing else is needed here.
     }
 
     if (I) {
       rerender();
-      document.addEventListener('aasaan:lang', rerender);
+      document.addEventListener('aasaanly:lang', rerender);
     }
   })();
 

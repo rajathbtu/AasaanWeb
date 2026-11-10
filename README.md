@@ -1,9 +1,9 @@
-# Aasaan (Services Marketplace) — Landing Website
+# Aasaanly (Services Marketplace) — Landing Website
 
-A static, responsive marketing site for Aasaan — a services marketplace for India. Built with vanilla HTML/CSS/JS.
+A static, responsive marketing site for Aasaanly — a services marketplace for India. Built with vanilla HTML/CSS/JS.
 
 ## Live URL
-- Production: https://aasaanly.com/
+- Production: https://aasaanly.com/ (GitHub Pages, custom domain)
 
 ## Tech Stack
 - HTML5, CSS3, JavaScript (no framework)
@@ -11,11 +11,11 @@ A static, responsive marketing site for Aasaan — a services marketplace for In
 
 ## Project Structure
 - `index.html` — Main landing page
-- `styles.css` — Global styles
-- `script.js` — Interactions (nav toggle, reveal-on-scroll, forms, scroll restore)
-- `assets/screens/` — App screen images used in hero and tour
+- `assets/` — Landing page assets: `styles.css` (landing styles), `app.js` (interactions), `i18n.js` (EN/HI switching), `hi.js` (Hindi copy), brand icons
+- `styles.css`, `script.js` — Styles and interactions for the legal pages only
 - `privacy.html`, `terms.html`, `security.html` — Legal pages
 - `robots.txt`, `sitemap.xml` — SEO crawl and indexing
+- `CNAME` — GitHub Pages custom domain (`aasaanly.com`)
 - `PRD/` — Product specs (ignored in robots and .gitignore)
 
 ## Run Locally
@@ -26,7 +26,7 @@ python3 -m http.server 5500
 ```
 
 ## Deploy
-- Any static host: GitHub Pages, Netlify, Vercel, Cloudflare Pages
+- GitHub Pages (branch: `main`, custom domain `aasaanly.com`) or any static host: Netlify, Vercel, Cloudflare Pages
 - Ensure the final domain matches canonical and Open Graph URLs
 
 ## SEO (already implemented)
@@ -42,20 +42,14 @@ python3 -m http.server 5500
 - Replace domain in:
   - `<link rel="canonical">`, `og:url`, `twitter:site` (if applicable)
   - `sitemap.xml` and `robots.txt` sitemap URL
-- Replace `og:image` with a real 1200×630 PNG hosted on your domain
 - Update Play/App Store links in `index.html` when available
 
-## Images (screens)
-- Put exported screens in `assets/screens/`
-- Suggested size: ~900×1950 (portrait); SVG or PNG
-- Filenames must match those referenced in `index.html`
-
 ## Editing tips
-- Device preview sizing is controlled by `.device` and `.hero-device` in `styles.css`
+- Device preview sizing is controlled by `.device` and `.hero-device` in `assets/styles.css`
 - Screenshots are non-interactive and have rounded corners
 
 ## License
 Proprietary — All rights reserved.
 
 ## Contact
-hello@aasaanapp.in | Noida, India
+hello@aasaanly.com | Noida, India
