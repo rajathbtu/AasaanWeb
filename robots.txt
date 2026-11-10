@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 Disallow: /PRD/
 
-Sitemap: https://aasaanapp.in/sitemap.xml
+Sitemap: https://aasaanly.com/sitemap.xml

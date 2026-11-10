@@ -3,7 +3,7 @@
 A static, responsive marketing site for Aasaan — a services marketplace for India. Built with vanilla HTML/CSS/JS.
 
 ## Live URL
-- Production: https://aasaanapp.in/ (update if different)
+- Production: https://aasaanly.com/
 
 ## Tech Stack
 - HTML5, CSS3, JavaScript (no framework)
