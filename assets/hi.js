@@ -329,7 +329,7 @@ Object.assign(window.AASAANLY_HI, {
   'foot.plans': 'Pro प्लान',
   'foot.onboard': 'प्रोवाइडर ऑनबोर्डिंग',
   'foot.early': 'जल्दी नोटिफ़िकेशन',
-  'foot.rights': 'आसानली। सर्वाधिकार सुरक्षित।',
+  'foot.rights': 'AnantSky LLP · आसानली। सर्वाधिकार सुरक्षित।',
   'foot.how': 'यह कैसे काम करता है',
   'foot.svc': 'सेवाएँ',
   'foot.feat': 'खासियतें',
