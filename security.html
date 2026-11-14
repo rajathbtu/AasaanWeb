@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Security — Aasaanly</title>
-<meta name="description" content="How Aasaanly by AnantSky LLP protects accounts, payments and personal data: encryption, OTP login, Razorpay, moderation, responsible disclosure and data retention.">
+<meta name="description" content="How Aasaanly by AnantSky LLP protects accounts, payments and personal data: encryption, OTP login, secure payments, moderation, responsible disclosure and data retention.">
 <meta name="theme-color" content="#10c16b">
 <meta name="color-scheme" content="light">
 <meta property="og:type" content="website">
@@ -120,7 +120,7 @@
             <li>HTTPS for all app and web traffic.</li>
             <li>Authentication on APIs; short-lived sessions after OTP login.</li>
             <li>Least-privilege access for staff, with audit logs.</li>
-            <li>Server-side secrets for Razorpay, Sarvam, WhatsApp and the database — never inside the app bundle.</li>
+            <li>Server-side secrets for payments, voice AI, messaging and the database — never inside the app bundle.</li>
             <li>Regular dependency updates, monitoring, and graceful failure on poor networks.</li>
             <li>Photo and review moderation before or after they go live.</li>
           </ul>
@@ -134,7 +134,7 @@
           <h2>Accounts and OTP login</h2>
           <p>
             There are no passwords to leak. Login is a 4-digit OTP sent to your mobile number.
-            Truecaller one-tap is available where supported. OTPs expire quickly. If someone
+            Optional one-tap caller verification is available where supported. OTPs expire quickly. If someone
             uses your number without permission, contact us and we will help lock the account.
           </p>
         </section>
@@ -142,7 +142,7 @@
         <section id="payments">
           <h2>Payments</h2>
           <p>
-            Card, UPI and net-banking details are entered on Razorpay’s (or the app store’s)
+            Card, UPI and net-banking details are entered on our payment gateway’s (or the app store’s)
             checkout, not stored by Aasaanly. We keep only order IDs, amounts and status, so we
             can activate Pro, boosts and credits and process refunds. Payment secrets stay on
             the server.

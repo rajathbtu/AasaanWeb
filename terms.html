@@ -175,7 +175,7 @@
           </div>
           <div class="legal-card">
             <b>What it costs</b>
-            <span>End users never pay commission. Providers can stay on the Free plan or upgrade to Pro / Pro Plus. Boosts and extra daily requests are paid add-ons. Payments run through Razorpay.</span>
+            <span>End users never pay commission. Providers can stay on the Free plan or upgrade to Pro / Pro Plus. Boosts and extra daily requests are paid add-ons. Payments run through our in-app payment gateway.</span>
           </div>
           <div class="legal-card">
             <b>Your data</b>
@@ -318,8 +318,8 @@
           <h2>6. Accounts and security</h2>
           <h3>6.1 Registration</h3>
           <p>
-            You register with a mobile number and a 4-digit OTP. Truecaller one-tap login is
-            available where Truecaller supports it. There is no password. You must give accurate
+            You register with a mobile number and a 4-digit OTP. Optional one-tap caller
+            verification is available where your device and the verification provider support it. There is no password. You must give accurate
             information (name, language, role, and, for providers, services, location and radius)
             and keep it up to date.
           </p>
@@ -440,9 +440,9 @@
           <h3>9.1 Processor</h3>
           <p>
             In-app purchases (subscriptions, boosts, extra-request fees, credit packs, where
-            offered) are processed by <strong>Razorpay</strong> or another payment gateway we
-            name at checkout. We do not store your full card details, UPI PIN or net-banking
-            credentials on our servers. Razorpay’s own terms and privacy policy also apply to
+            offered) are processed by our <strong>payment gateway</strong> (a PCI-DSS compliant
+            provider we name at checkout). We do not store your full card details, UPI PIN or net-banking
+            credentials on our servers. The gateway’s own terms and privacy policy also apply to
             the payment step. If a purchase is made through Google Play or the App Store, that
             store’s terms also apply and refunds may need to be requested from the store.
           </p>
@@ -535,7 +535,7 @@
           <p>
             To request a refund, contact
             <a href="mailto:hello@aasaanly.com">hello@aasaanly.com</a> with the phone number on
-            the account, the Razorpay order or payment ID (or store receipt), and what went wrong.
+            the account, the payment order or payment ID (or store receipt), and what went wrong.
             We will acknowledge and respond in line with our grievance timelines in Section 24.
           </p>
         </section>
@@ -634,24 +634,23 @@
         <section id="third-parties">
           <h2>15. Third-party services</h2>
           <p>
-            Aasaanly relies on carefully chosen third parties to operate. Their terms apply to
-            their own processing. Key processors and features include:
+            Aasaanly relies on carefully chosen third parties to operate. We describe them by
+            the function they perform. We may replace a provider with another one that does the
+            same job, on equivalent confidentiality and security terms, and will keep this page
+            current. The apps may also link to websites we do not control. We are not responsible
+            for those sites. Read their terms before using them.
           </p>
           <ul>
-            <li><strong>Razorpay</strong> — payments and refunds;</li>
-            <li><strong>Sarvam AI</strong> — voice agents for outbound and realtime calls;</li>
-            <li><strong>Meta WhatsApp Cloud API</strong> — WhatsApp updates;</li>
-            <li><strong>Google Maps / Places</strong> — maps, autocomplete and geocoding;</li>
-            <li><strong>Firebase Cloud Messaging / Expo Notifications</strong> — push notifications;</li>
-            <li><strong>Truecaller</strong> — optional one-tap login;</li>
-            <li><strong>ImageKit</strong> — profile-photo storage and delivery;</li>
+            <li><strong>Payment gateway</strong> — payments and refunds;</li>
+            <li><strong>Voice-AI provider</strong> — AI agents for outbound and realtime calls;</li>
+            <li><strong>Messaging provider</strong> — WhatsApp updates;</li>
+            <li><strong>Maps and places provider</strong> — maps, autocomplete and geocoding;</li>
+            <li><strong>Push-notification service</strong> — delivery of device notifications;</li>
+            <li><strong>Caller-verification provider</strong> — optional one-tap login;</li>
+            <li><strong>Image host / CDN</strong> — profile-photo storage and delivery;</li>
             <li><strong>SMS gateway</strong> — OTP delivery;</li>
-            <li><strong>Render / cloud hosting</strong> — API and database infrastructure.</li>
+            <li><strong>Cloud hosting provider</strong> — API and database infrastructure.</li>
           </ul>
-          <p>
-            The apps may also link to websites we do not control. We are not responsible for
-            those sites. Read their terms before using them.
-          </p>
         </section>
 
         <section id="permissions">
@@ -681,7 +680,7 @@
           <h2>17. AI voice calling and WhatsApp</h2>
           <h3>17.1 AI voice agents</h3>
           <p>
-            We use Sarvam-powered voice agents for outbound onboarding, support and, where
+            We use AI voice agents from our voice-AI provider for outbound onboarding, support and, where
             offered, realtime assistance, in your chosen language. By continuing a call with an
             Aasaanly agent you agree that:
           </p>
@@ -693,8 +692,9 @@
           </ul>
           <h3>17.2 WhatsApp</h3>
           <p>
-            If you contact us on WhatsApp, or opt in to WhatsApp updates, Meta processes the
-            messages under its own terms. We use the WhatsApp Business Cloud API to send
+            If you contact us on WhatsApp, or opt in to WhatsApp updates, WhatsApp and its
+            operator process the messages under their own terms. We use the WhatsApp Business
+            platform to send
             onboarding, status and support messages. You may reply STOP or ask us to stop
             WhatsApp messages. Transactional messages about a live request may still be sent
             while that request is active.

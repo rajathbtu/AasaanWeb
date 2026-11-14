@@ -199,10 +199,10 @@
             support on phone, email and WhatsApp.
           </p>
           <p>
-            It does not cover websites or apps we do not operate (for example, Razorpay checkout
-            pages, Google Maps, Truecaller, WhatsApp/Meta, or the App Stores). Those companies
-            have their own privacy policies. When Aasaanly hands data to them, this policy
-            explains why.
+            It does not cover websites or apps we do not operate (for example, our payment
+            gateway’s checkout, maps, caller-verification, WhatsApp, or the app stores). Those
+            companies have their own privacy policies. When Aasaanly hands data to them, this
+            policy explains why.
           </p>
           <p>
             Aasaanly is offered for use in India. If you use it from another country, you are
@@ -250,7 +250,7 @@
                 </tr>
                 <tr>
                   <td>Payments</td>
-                  <td>Razorpay order and payment IDs, amount, currency, status, plan or boost type</td>
+                  <td>Payment-gateway order and payment IDs, amount, currency, status, plan or boost type</td>
                   <td>Charging for Pro, boosts, extra requests, credits; refunds; accounts</td>
                 </tr>
                 <tr>
@@ -265,7 +265,7 @@
                 </tr>
                 <tr>
                   <td>Communications</td>
-                  <td>OTP logs (number + time, not the code after expiry), WhatsApp messages, support emails, AI-call transcripts</td>
+                  <td>OTP logs (number + time, not the code after expiry), chat-app messages, support emails, AI-call transcripts</td>
                   <td>Delivering the service and helping you</td>
                 </tr>
                 <tr>
@@ -298,7 +298,7 @@
             <li><strong>From you</strong> — when you register, complete onboarding, post a request, set a radius, upload a photo, pay, rate, or write to support.</li>
             <li><strong>From your device</strong> — with your permission: location, camera, photos, microphone, notifications, and (optionally) contacts.</li>
             <li><strong>Automatically</strong> — technical logs, crash reports, and security events generated as you use the apps.</li>
-            <li><strong>From partners</strong> — Truecaller (verified number and, if shared, name); Razorpay (payment status); Firebase (push delivery); Sarvam (call status and transcript); Meta (WhatsApp delivery status); Google (place details you select).</li>
+            <li><strong>From partners</strong> — our caller-verification provider (verified number and, if shared, name); payment gateway (payment status); push-notification service (delivery); voice-AI provider (call status and transcript); messaging provider (chat delivery status); maps provider (place details you select).</li>
             <li><strong>From other users</strong> — a rating or review they write about you; the fact that they accepted or closed a request with you.</li>
           </ul>
         </section>
@@ -307,7 +307,7 @@
           <h2>5. Why we use your data</h2>
           <p>We process personal data to:</p>
           <ul>
-            <li>create and secure your account, send OTPs, and support Truecaller login;</li>
+            <li>create and secure your account, send OTPs, and support one-tap caller verification;</li>
             <li>match end users with nearby providers by service and radius, and show live status;</li>
             <li>let matched people call each other after acceptance;</li>
             <li>send push, in-app, WhatsApp, SMS and (where needed) AI voice updates about requests, onboarding and safety;</li>
@@ -354,7 +354,8 @@
           </ul>
           <h3>6.3 Sensitive / high-risk processing</h3>
           <p>
-            Location, Aadhaar-based KYC (if used), payment credentials (handled by Razorpay),
+            Location, Aadhaar-based KYC (if used), payment credentials (handled by our payment
+            gateway),
             and voice recordings need a higher standard of care. We collect them only when the
             feature requires it, keep them encrypted where feasible, and restrict internal access.
           </p>
@@ -372,16 +373,16 @@
             <li>You can deny location and type an address instead; matching will be less accurate.</li>
             <li>A request’s location is visible to providers whose radius covers it. Your precise live GPS is not broadcast to all users.</li>
             <li>Providers’ saved locations (Free: one; Pro Plus: up to five) are stored to run matching.</li>
-            <li>Google Maps / Places may receive search text and coordinates to show autocomplete and maps, under Google’s terms.</li>
+            <li>Our maps and places provider may receive search text and coordinates to show autocomplete and maps, under that provider’s terms.</li>
           </ul>
         </section>
 
         <section id="photos">
           <h2>8. Profile photos, KYC and moderation</h2>
           <p>
-            Profile photos are uploaded to ImageKit and may sit in an “under review” state until
-            a moderator approves them. Rejected photos are not shown to other users. ImageKit
-            URLs are technically accessible to anyone who has the URL; we do not publish a
+            Profile photos are uploaded to our image host and may sit in an “under review” state until
+            a moderator approves them. Rejected photos are not shown to other users. Image URLs
+            are technically accessible to anyone who has the URL; we do not publish a
             directory of them. Do not upload a photo you do not want public.
           </p>
           <p>
@@ -396,9 +397,9 @@
         <section id="voice">
           <h2>9. Voice, AI agents and call data</h2>
           <p>
-            If you speak to a Sarvam-powered Aasaanly agent, or use speech-to-text to dictate a
-            request, we and Sarvam will process audio and a transcript. We store a
-            <em>VoiceCallRecord</em> that can include the numbers involved, duration, status,
+            If you speak to an Aasaanly AI voice agent, or use speech-to-text to dictate a
+            request, we and our voice-AI provider will process audio and a transcript. We store a
+            call record that can include the numbers involved, duration, status,
             agent variables and transcript, so we can complete onboarding, support you later,
             and investigate complaints.
           </p>
@@ -416,12 +417,12 @@
         <section id="payments-data">
           <h2>10. Payments</h2>
           <p>
-            Card, UPI, net-banking and wallet details are entered on Razorpay’s (or the app
+            Card, UPI, net-banking and wallet details are entered on our payment gateway’s (or the app
             store’s) checkout, not on our form. We receive and store a payment identifier,
             amount, currency, status and type (subscription, boost, credit purchase). We do not
-            store CVV, UPI PIN or full PAN from the checkout. Razorpay processes payments as
-            an independent controller of its own customer data; read Razorpay’s policy on their
-            checkout page.
+            store CVV, UPI PIN or full PAN from the checkout. The gateway processes payments as
+            an independent controller of its own customer data; read the gateway’s policy on
+            the checkout page.
           </p>
         </section>
 
@@ -440,15 +441,16 @@
             <table class="legal-table">
               <thead><tr><th>Partner</th><th>What they do</th><th>What they may receive</th></tr></thead>
               <tbody>
-                <tr><td>Razorpay</td><td>Payment gateway</td><td>Order amount, contact details the checkout requires, payment status</td></tr>
-                <tr><td>Sarvam AI</td><td>Voice AI</td><td>Phone number, audio, transcript, call metadata</td></tr>
-                <tr><td>Meta (WhatsApp Cloud API)</td><td>Messaging</td><td>Phone number, message templates and replies</td></tr>
-                <tr><td>Google (Maps, Places, Firebase)</td><td>Maps, autocomplete, push</td><td>Location queries, coordinates, device push tokens, diagnostic data</td></tr>
-                <tr><td>Truecaller</td><td>One-tap verification</td><td>Mobile number and verification result</td></tr>
-                <tr><td>ImageKit</td><td>Image CDN / storage</td><td>Profile photo files</td></tr>
-                <tr><td>SMS provider</td><td>OTP delivery</td><td>Mobile number and OTP</td></tr>
-                <tr><td>Render / cloud host</td><td>API and database hosting</td><td>Data stored in our production systems</td></tr>
-                <tr><td>Expo / EAS</td><td>App updates and builds</td><td>Update and device metadata</td></tr>
+                <tr><td>Payment gateway</td><td>Process payments and refunds</td><td>Order amount, contact details the checkout requires, payment status</td></tr>
+                <tr><td>Voice-AI provider</td><td>AI voice agents and speech-to-text</td><td>Phone number, audio, transcript, call metadata</td></tr>
+                <tr><td>Messaging provider</td><td>WhatsApp / chat updates</td><td>Phone number, message templates and replies</td></tr>
+                <tr><td>Maps and places provider</td><td>Maps, autocomplete, geocoding</td><td>Location queries, coordinates</td></tr>
+                <tr><td>Push-notification service</td><td>Deliver device notifications</td><td>Device push tokens, diagnostic data</td></tr>
+                <tr><td>Caller-verification provider</td><td>Optional one-tap login</td><td>Mobile number and verification result</td></tr>
+                <tr><td>Image host / CDN</td><td>Store and serve profile photos</td><td>Profile photo files</td></tr>
+                <tr><td>SMS gateway</td><td>OTP delivery</td><td>Mobile number and OTP</td></tr>
+                <tr><td>Cloud hosting provider</td><td>API and database hosting</td><td>Data stored in our production systems</td></tr>
+                <tr><td>App-update / build service</td><td>App updates and builds</td><td>Update and device metadata</td></tr>
               </tbody>
             </table>
           </div>
@@ -477,9 +479,9 @@
           <h2>12. Cross-border transfers</h2>
           <p>
             Most processing (database, API, Indian payments, Indian SMS) happens in India or on
-            infrastructure we control for Indian users. Some processors — Google, Meta, ImageKit,
-            Truecaller, parts of cloud hosting — may store or process data in Singapore, the
-            United States, the European Union or elsewhere.
+            infrastructure we control for Indian users. Some processors — maps, messaging,
+            image hosting, caller verification and parts of cloud hosting — may store or process
+            data in Singapore, the United States, the European Union or elsewhere.
           </p>
           <p>
             Under the DPDP Act we may transfer personal data to another country unless the
